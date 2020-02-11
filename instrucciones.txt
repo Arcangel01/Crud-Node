@@ -1,0 +1,11 @@
+npm init --yes  --> Para crear el package.json del proyecto
+npm install express mysql  --> Dependencias del proyecto
+
+Luego crear la carpeta source y el index.js o ts.
+
+Crear carpetas routes y el archivo correspondiente
+
+npm install nodemon -D
+
+add esta linea en el package --> "dev": "nodemon src/index.js"
+iniciamos el servidor con npm run dev.
